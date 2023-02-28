@@ -1,0 +1,15 @@
+{
+  "name": "2-practice-for-week-10-express-route-handlers-main",
+  "version": "1.0.0",
+  "description": "In this practice, you will create an Express server with basic Express routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
