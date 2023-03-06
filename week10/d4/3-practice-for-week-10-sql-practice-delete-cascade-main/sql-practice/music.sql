@@ -11,7 +11,12 @@ CREATE TABLE musicians (
   first_name VARCHAR(100) NOT NULL,
   last_name VARCHAR(100),
   band_id INTEGER,
-  FOREIGN KEY (band_id) REFERENCES bands(id)
+  --!!ADD
+  -- FOREIGN KEY (band_id) REFERENCES bands(id)
+  --!!END_ADD
+  --!!START SILENT
+  FOREIGN KEY (band_id) REFERENCES bands(id) ON DELETE CASCADE
+  --!!END
 );
 INSERT INTO bands
 VALUES (1, 'The Falling Box'),
